@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f5f8;
+  padding-top: 0px; /* Added space for the fixed navbar */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 130.1%;
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10; /* Ensure navbar stays on top */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  overflow-x: auto;
+  background-color: #f4f5f8;
+  margin-top: 0px; /* Add margin to prevent content from being hidden under the navbar */
+  padding-top: 0px;
+}
+
+.kanban-column {
+  flex: 1;
+  background-color: #f4f5f8;
+  padding: 15px;
+  border-radius: 8px;
+  min-width: 250px;
+}
+
+.column-title {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #333;
+  margin-left: 8px;
+  align-items: center;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+}
+
+.ticket-count {
+  color: #9da0a6;
+  font-weight: normal;
+  margin-left: 10px;
+}
+html {
+  transform: scale(0.75); /* Default scale value, you can change it */
+  transform-origin: top left; /* Ensures scaling happens from the top-left corner */
+}

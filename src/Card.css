@@ -1,0 +1,91 @@
+.ticket-card {
+    width: 350px;
+    background: #fff;
+    height:fit-content;
+    border: 1px solid #eef0f2;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(128, 128, 128,0.5);
+    transition: transform 0.3s ease;
+  }
+.ticket-id{
+    color: #6b6f76;
+    text-align: left;
+    margin: 0px;
+}
+  
+
+  
+  .ticket-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: left;
+
+  }
+  
+  .ticket-tag,
+  .ticket-status,
+  .ticket-priority,
+  .ticket-user {
+    font-size: 0.9rem;
+    /* margin: 5px 0; */
+    color: #6b6f76;
+  }
+  
+  .ticket-priority {
+    font-weight: normal;
+    display: flex;
+  }
+  
+  .priority-icon-box{
+    
+    
+    border: 1px solid #eef0f2;
+    
+    width: fit-content;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .priority-icon{
+    margin: 4px;
+    
+    text-align: center;
+    align-self: center;
+    
+  }
+  .tag{
+    border: 1px solid #eef0f2;
+    
+    width: fit-content;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 5px;
+
+  }
+  .ticket-tag{
+    margin: 4px;
+    
+    text-align: center;
+    align-self: center;
+  }
+  i{
+    margin: 4px;
+    
+    text-align: center;
+    align-self: center;
+  }
+
+  .ticket-card{
+    margin-left: 0px;
+  }
+  .ticket-id-container{
+    display: flex;
+    justify-content: space-between;
+  }

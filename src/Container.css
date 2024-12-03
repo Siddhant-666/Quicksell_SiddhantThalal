@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f5f8;
+  }
+  /*
+  .App {
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  } */
+  .kanban-board {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+    background-color: #f4f5f8;
+  }
+  
+  .kanban-column {
+    flex: 1;
+    background-color: #f4f5f8;
+    padding: 15px;
+    border-radius: 8px;
+    
+    width: 350px;
+  }
+  
+  .column-title {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #333;
+    margin-left: 8px;
+    align-items: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .column-header{
+    display: flex;
+    align-items: center;
+  }
+  .ticket-count{
+    color: #9da0a6;
+    font-weight: normal;
+    margin-left: 10px;
+  }
+  
+  .column{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .images{
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;
+
+  }
+  .image1{
+    margin-right: 10px;
+    margin-top: 0px;
+  }

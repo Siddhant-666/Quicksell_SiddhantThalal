@@ -1,0 +1,103 @@
+.navbar {
+    display: flex;
+    width: 130%;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    position: relative; /* Ensure the navbar acts as a relative container */
+  }
+  
+  .navbar-logo {
+    position: relative; /* To position the dropdown relative to this element */
+  }
+  
+  .display-box {
+    border: 1px solid #eef0f2;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.5);
+    display: flex;
+    padding: 3px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .display-text {
+    margin: 3px;
+  }
+  
+  .dropdown-menu {
+    position: absolute; /* Makes the dropdown float */
+    top: 100%; /* Positions it directly below the display box */
+    left: 0;
+    width: 200px;
+    background-color: #f8f8fa;
+    border: 1px solid #ebecef;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 100; /* Ensures it appears on top of other elements */
+  }
+  
+  .dropdown-section {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dropdown-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: 
+    #9c9c9d;
+  }
+  
+  .dropdown-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-button {
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    transition: background-color 0.3s ease;
+    align-items: center;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .sorting-controls {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  #sort-select {
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .label{
+    color: 
+    #9c9c9d;
+    text-align: center;
+    
+    
+  }
+  .dropdown-select{
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px #ebecef ;
+    width: 7rem;
+    align-items: center;
+  }
